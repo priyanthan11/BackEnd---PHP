@@ -27,11 +27,11 @@
 
     ?>
       <tr>
-        <td><?php print $row['ID']; ?></td>
-        <td><?php print $row['Name']; ?></td>
-        <td><?php print $row['Address']; ?></td>
-        <td><?php print $row['Payment']; ?></td>
-        <td><a href="delete.php?id=<?php print $row['ID']; ?>">Delete</a></td>
+        <td><?php print $row['S_ID']; ?></td>
+        <td><?php print $row['S_Name']; ?></td>
+        <td><?php print $row['S_Address']; ?></td>
+        <td><?php print $row['S_Payment']; ?></td>
+        <td><a href="delete.php?id=<?php print $row['S_ID']; ?>">Delete</a></td>
       </tr>
 
     <?php

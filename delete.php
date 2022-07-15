@@ -1,15 +1,14 @@
 <?php
 require_once("dbconnection.php");
 
-$id = $_GET['ID'];
+$id = $_GET['id'];
 
-print $id;
+//print $id;
 
-$queary = "DELETE FROM student WHERE ID = '$id'";
+$queary = "DELETE FROM student WHERE S_ID = '$id'";
 
-$result = mysqli_query($connection,$queary);
+$result = mysqli_query($connection, $queary);
 
-if($result)
-{
+if ($result) {
    "Student with ID $id Deleted successfuly";
 }
